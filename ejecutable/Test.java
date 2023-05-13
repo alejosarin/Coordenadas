@@ -23,6 +23,8 @@ public class Test
         {
             System.out.println("\nLas Cordenadas son Diferentes ");
         }
-
+       i.CalcularDistancia(f, i);
+        
     }
+        
 }

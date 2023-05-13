@@ -41,6 +41,14 @@ public class Coordenada
         Coordenada diferente = (Coordenada)d;
         return (x==diferente.getX())&&(y==diferente.getY());
     }
+    public  double CalcularDistancia( Coordenada f, Coordenada i)
+    {
+        Double d;
+        d=Math.sqrt(Math.pow((f.getY()-i.getY()), 2)+Math.pow((f.getX()-i.getX()),2));
+        System.out.println("Distancia De las cordenadas es "+d);
+
+        return d;
+    }
 }
     
 
